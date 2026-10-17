@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="620" viewBox="0 0 720 620" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Casa, electricidad y pintura</title>
+  <desc id="desc">Ilustración abstracta de una casa con símbolos de electricidad y pintura, creada para representar los oficios sin mostrar una obra real.</desc>
+  <defs>
+    <linearGradient id="bg" x1="42" y1="32" x2="662" y2="592" gradientUnits="userSpaceOnUse"><stop stop-color="#F7F1E5"/><stop offset="1" stop-color="#E9DCC9"/></linearGradient>
+    <linearGradient id="wall" x1="246" y1="161" x2="539" y2="477" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFDF7"/><stop offset="1" stop-color="#E6DED0"/></linearGradient>
+    <filter id="shadow" x="115" y="99" width="527" height="474" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect x="16" y="16" width="688" height="588" rx="30" fill="url(#bg)"/>
+  <circle cx="593" cy="105" r="68" fill="#E4B75D" fill-opacity=".4"/>
+  <path d="M43 475c103-51 181-60 283-26 109 36 219 36 351-14v139H43V475Z" fill="#D4DED5"/>
+  <path d="M200 184c0-14 11-25 25-25h329c14 0 25 11 25 25v313H200V184Z" fill="#14263D" fill-opacity=".13" filter="url(#shadow)"/>
+  <path d="M181 214 381 73l201 141v285H181V214Z" fill="#14263D"/>
+  <path d="m224 216 157-111 158 111v252H224V216Z" fill="url(#wall)"/>
+  <path d="m159 214 222-157 222 157-22 31-200-141-201 141-21-31Z" fill="#14263D"/>
+  <path d="M263 279h89v-63h-89v63Z" fill="#D7E0D6" stroke="#14263D" stroke-width="5"/>
+  <path d="M307 217v60m-40-28h82" stroke="#14263D" stroke-width="4"/>
+  <path d="M414 253c0-20 16-36 36-36s36 16 36 36v53h-72v-53Z" fill="#F5F1E8" stroke="#C86645" stroke-width="5"/>
+  <path d="M427 260c0-13 10-23 23-23s23 10 23 23v33h-46v-33Z" fill="#E4B75D"/>
+  <path d="M284 468V344c0-34 28-62 62-62s62 28 62 62v124H284Z" fill="#C86645"/>
+  <path d="M304 468V346c0-23 19-42 42-42s42 19 42 42v122h-84Z" fill="#F7F1E5"/>
+  <path d="m497 309-35 62h26l-12 48 44-67h-28l15-43h-10Z" fill="#E4B75D"/>
+  <g transform="rotate(-11 144 401)">
+    <rect x="83" y="345" width="124" height="37" rx="8" fill="#C86645"/>
+    <path d="M99 382v79c0 7 6 13 13 13h7c7 0 13-6 13-13v-79" fill="#14263D"/>
+    <path d="M106 353h77" stroke="#F5F1E8" stroke-opacity=".8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M126 465c0 17-8 26-25 34" stroke="#14263D" stroke-width="10" stroke-linecap="round"/>
+    <path d="m174 382 11 18" stroke="#E4B75D" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <rect x="478" y="419" width="77" height="48" rx="9" fill="#E4B75D"/>
+  <path d="M489 431h55M489 442h55M489 453h38" stroke="#14263D" stroke-opacity=".7" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="132" cy="181" r="11" fill="#C86645"/>
+  <path d="M103 223h44" stroke="#C86645" stroke-width="3" stroke-linecap="round"/>
+  <path d="M574 505h45" stroke="#14263D" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M599 490v30" stroke="#14263D" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+</svg>

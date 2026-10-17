@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Detalles ilustrados de electricidad y pintura</title>
+  <desc id="desc">Composición abstracta con muestras de color y líneas de circuito, no basada en una instalación ni en una obra real.</desc>
+  <rect width="600" height="300" rx="16" fill="#1D314A"/>
+  <circle cx="497" cy="73" r="88" fill="#E4B75D" fill-opacity=".1"/>
+  <path d="M0 246c119-48 202-47 298-5 92 40 193 44 302 2v57H0v-54Z" fill="#0E1C30" fill-opacity=".5"/>
+  <path d="M73 54h177v171H73z" fill="#F5F1E8"/>
+  <path d="M91 71h141v137H91z" fill="#E8E1D4"/>
+  <path d="M91 71h141v35H91z" fill="#C86645"/>
+  <path d="M91 106h141v35H91z" fill="#E4B75D"/>
+  <path d="M91 141h141v67H91z" fill="#D3DDD3"/>
+  <path d="M74 226h176" stroke="#F5F1E8" stroke-opacity=".4" stroke-width="2"/>
+  <path d="M326 77h143v105H326z" stroke="#F5F1E8" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M349 105h37v52h-37z" fill="#E4B75D"/>
+  <path d="m374 112-13 20h11l-5 17 17-25h-11l6-12h-5Z" fill="#14263D"/>
+  <path d="M386 131h46v-30h37M386 142h28v24h55M386 153h17v33h-40" stroke="#F5F1E8" stroke-opacity=".76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="386" cy="131" r="4" fill="#C86645"/>
+  <circle cx="432" cy="101" r="4" fill="#E4B75D"/>
+  <circle cx="469" cy="166" r="4" fill="#E4B75D"/>
+  <circle cx="373" cy="186" r="4" fill="#C86645"/>
+  <path d="M518 191h36" stroke="#F5F1E8" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M536 173v36" stroke="#F5F1E8" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="537" cy="191" r="14" stroke="#E4B75D" stroke-opacity=".8" stroke-width="2"/>
+</svg>
