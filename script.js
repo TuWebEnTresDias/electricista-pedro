@@ -1,8 +1,3 @@
-// Configure only a business contact that Pedro has approved for public display.
-const SITE_CONFIG = {
-  publicWhatsAppE164: "5491130805394",
-};
-
 const menuToggle = document.querySelector("#menuToggle");
 const mainNav = document.querySelector("#mainNav");
 
@@ -36,11 +31,23 @@ if (menuToggle && mainNav) {
 
 const contactAction = document.querySelector("#contactAction");
 const contactStatus = document.querySelector("#contact-status");
-const publicNumber = String(SITE_CONFIG.publicWhatsAppE164).replace(/\D/g, "");
+const publicPhone = document.querySelector("#publicPhone");
+const mobileContactBar = document.querySelector("#mobileContactBar");
+const mobileCall = document.querySelector("#mobileCall");
+const publicPhoneHref = publicPhone?.getAttribute("href") ?? "";
+const publicNumber = publicPhoneHref.match(/^tel:\+?(\d{8,15})$/)?.[1] ?? "";
 
-if (contactAction && contactStatus && /^\d{8,15}$/.test(publicNumber)) {
+if (publicNumber) {
+  const callHref = `tel:+${publicNumber}`;
   const message = encodeURIComponent("Hola, vi la página de Pedro y quiero consultar por un trabajo.");
-  contactAction.href = `https://wa.me/${publicNumber}?text=${message}`;
-  contactAction.hidden = false;
-  contactStatus.textContent = "Escribí para contar qué trabajo necesitás y en qué zona.";
+  const whatsappHref = `https://wa.me/${publicNumber}?text=${message}`;
+
+  if (publicPhone) publicPhone.href = callHref;
+  if (mobileCall) mobileCall.href = callHref;
+  document.querySelectorAll("[data-whatsapp-link]").forEach((link) => {
+    link.href = whatsappHref;
+    link.hidden = false;
+  });
+  if (mobileContactBar && mobileCall) mobileContactBar.hidden = false;
+  if (contactAction && contactStatus) contactStatus.textContent = "Escribí para contar qué trabajo necesitás y en qué zona.";
 }

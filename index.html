@@ -46,8 +46,8 @@
             <h1 id="hero-title">Un mismo lugar para <em>resolver y renovar.</em></h1>
             <p class="hero-lede">Electricidad domiciliaria, instalación de aire y pintura para casas y departamentos.</p>
             <div class="hero-actions">
-              <a class="button button-warm" href="#servicios">Conocé los servicios <span aria-hidden="true">↘</span></a>
-              <a class="text-link text-link-light" href="#forma-de-trabajo">Cómo organizar un trabajo <span aria-hidden="true">→</span></a>
+              <a class="button button-whatsapp" data-whatsapp-link hidden target="_blank" rel="noopener noreferrer">Consultar por WhatsApp <span aria-hidden="true">↗</span></a>
+              <a class="text-link text-link-light" href="#servicios">Conocé los servicios <span aria-hidden="true">↘</span></a>
             </div>
             <div class="hero-location">
               <span class="location-dot" aria-hidden="true"></span>
@@ -200,13 +200,18 @@
             <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span>Un último paso</p>
             <h2 id="contact-title">¿Tenés un proyecto en mente?</h2>
             <p id="contact-status" aria-live="polite">Escribí para contar qué trabajo necesitás y en qué zona.</p>
-            <a class="text-link text-link-light" href="tel:+5491130805394">+54 9 11 3080-5394</a>
-            <a class="button button-warm contact-action" id="contactAction" hidden target="_blank" rel="noopener noreferrer">Consultar por WhatsApp <span aria-hidden="true">↗</span></a>
+            <a class="text-link text-link-light" id="publicPhone" href="tel:+5491130805394">+54 9 11 3080-5394</a>
+            <a class="button button-whatsapp contact-action" id="contactAction" data-whatsapp-link hidden target="_blank" rel="noopener noreferrer">Consultar por WhatsApp <span aria-hidden="true">↗</span></a>
           </div>
           <p class="contact-note">El enlace abre WhatsApp con un mensaje preparado para que lo revises antes de enviarlo.</p>
         </div>
       </section>
     </main>
+
+    <nav class="mobile-contact-bar" id="mobileContactBar" aria-label="Contacto rápido" hidden>
+      <a class="mobile-contact-link mobile-contact-call" id="mobileCall">Llamar</a>
+      <a class="mobile-contact-link button-whatsapp" id="mobileWhatsApp" data-whatsapp-link target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </nav>
 
     <footer class="site-footer">
       <div class="shell footer-inner">

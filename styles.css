@@ -13,6 +13,8 @@
   --line: #dedbd2;
   --clay: #c86645;
   --clay-deep: #a84d31;
+  --whatsapp: #087f45;
+  --whatsapp-hover: #06683a;
   --ochre: #e4b75d;
   --sage: #d8e0d5;
   --shell: 1160px;
@@ -382,6 +384,25 @@ figure {
 
 .button-warm:hover {
   background: #f0ca7e;
+}
+
+.button-whatsapp {
+  background: var(--whatsapp);
+  color: #fff;
+}
+
+.button-whatsapp:hover {
+  background: var(--whatsapp-hover);
+}
+
+.button-whatsapp[hidden] {
+  display: none;
+}
+
+.button-whatsapp:focus-visible,
+.mobile-contact-bar a:focus-visible {
+  outline-color: #fff;
+  outline-offset: 3px;
 }
 
 .button span {
@@ -958,6 +979,41 @@ figure {
   display: none;
 }
 
+.mobile-contact-bar[hidden] {
+  display: none;
+}
+
+.mobile-contact-bar {
+  position: fixed;
+  z-index: 18;
+  inset: auto 0 0;
+  display: none;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .65rem;
+  padding: .65rem var(--gutter) calc(.65rem + env(safe-area-inset-bottom));
+  border-top: 1px solid rgb(245 241 232 / 16%);
+  background: rgb(14 28 48 / 97%);
+}
+
+.mobile-contact-link {
+  display: inline-flex;
+  min-width: 0;
+  min-height: 3.25rem;
+  align-items: center;
+  justify-content: center;
+  padding: .55rem .7rem;
+  border: 1px solid rgb(245 241 232 / 55%);
+  color: var(--white);
+  font-size: .82rem;
+  font-weight: 750;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.mobile-contact-link.button-whatsapp {
+  border-color: transparent;
+}
+
 .contact-note {
   position: relative;
   z-index: 1;
@@ -1207,6 +1263,14 @@ figure {
 
   .contact-panel {
     padding: 1.55rem 1.2rem;
+  }
+
+  .site-footer {
+    padding-bottom: calc(5.2rem + env(safe-area-inset-bottom));
+  }
+
+  .mobile-contact-bar {
+    display: grid;
   }
 }
 
