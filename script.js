@@ -1,6 +1,6 @@
 // Configure only a business contact that Pedro has approved for public display.
 const SITE_CONFIG = {
-  publicWhatsAppE164: "",
+  publicWhatsAppE164: "5491130805394",
 };
 
 const menuToggle = document.querySelector("#menuToggle");
