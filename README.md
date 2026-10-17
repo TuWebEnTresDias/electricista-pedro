@@ -1,6 +1,6 @@
 # Pedro · Electricidad y Pintura
 
-Vista estática inicial para revisar una propuesta de sitio. Está hecha con HTML, CSS y JavaScript nativos; no usa paquetes, backend, formularios ni imágenes remotas. Los dos SVG de `assets/` son ilustraciones originales y no representan trabajos realizados por Pedro.
+Vista estática inicial para revisar una propuesta de sitio. Está hecha con HTML, CSS y JavaScript nativos; no usa paquetes ni backend. Las fotos de portada y detalle de pintura son hotlinks desde Pexels CDN, como en la demo `demo-pintor`. Esa demo identifica a Pexels como origen, pero no documenta aquí licencia ni permiso de reutilización; confirmar los términos antes de publicar. Los SVG locales de `assets/` son ilustraciones originales y no representan trabajos realizados por Pedro.
 
 ## Contacto
 

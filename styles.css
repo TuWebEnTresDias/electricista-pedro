@@ -461,6 +461,8 @@ figure {
 
 .hero-art img {
   width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   border-radius: 1.2rem;
   box-shadow: 0 2.5rem 5rem rgb(4 14 25 / 28%);
 }
@@ -725,6 +727,8 @@ figure {
 
 .detail-art img {
   width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   border: 1px solid rgb(245 241 232 / 14%);
   border-radius: .7rem;
 }
@@ -952,6 +956,9 @@ figure {
 .contact-copy {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .contact-copy .eyebrow {
@@ -977,6 +984,10 @@ figure {
 
 .contact-action[hidden] {
   display: none;
+}
+
+.contact-copy .text-link {
+  margin-top: 1rem;
 }
 
 .mobile-contact-bar[hidden] {
